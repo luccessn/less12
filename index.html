@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>less12</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <i class="fa-solid fa-circle-user" id="avatar"></i>
+    <div class="cookies" id="cookies">
+      <i class="fa-solid fa-cookie" id="Ckicon"></i>
+      <p class="cookies-title">Accept Cookies</p>
+    </div>
+    <section id="loginsection" class="loginsection">
+      <form action="" id="formLogin" class="formLg">
+        <input
+          type="username"
+          name="username"
+          placeholder="სახელი"
+          id="loginname"
+          class="inputtext username"
+        />
+        <div class="passwordLogin">
+          <input
+            type="password"
+            name="password"
+            id="loginpassword"
+            placeholder="თქვენი პაროლი"
+            class="inputtext password"
+          />
+          <i class="fa-solid fa-lock" id="fa-lock"></i>
+        </div>
+      </form>
+      <button type="submit" class="submit">Log In</button>
+      <button type="submit" class="submit" id="signup">Sign Up</button>
+    </section>
+    <section id="sectionReg" class="sectionReg">
+      <form action="" id="form" class="formRg">
+        <div>
+          <input
+            type="username"
+            name="username"
+            placeholder="სახელი"
+            id="usernameField"
+            class="inputtext username"
+          />
+          <p class="error" id="error-username"></p>
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            id="emailField"
+            placeholder="EMAIL"
+            class="inputtext username"
+          />
+          <p class="error" id="error-email"></p>
+        </div>
+        <div class="passwordContainer">
+          <input
+            type="password"
+            name="password"
+            id="passwordField"
+            placeholder="თქვენი პაროლი"
+            class="inputtext password"
+          />
+          <i class="fa-regular fa-eye" id="eyeicon"></i>
+          <p class="error" id="error-password"></p>
+        </div>
+        <div>
+          <input
+            type="password"
+            name="password2"
+            id="passwordField2"
+            placeholder="გაიმეორეთ პაროლი"
+            class="inputtext password"
+          />
+
+          <p class="error" id="error-password2"></p>
+        </div>
+        <div class="radioDV">
+          <input type="radio" name="gender" class="radio" />
+          <label for="gender"><i class="fa-solid fa-venus"></i></label>
+          <input type="radio" name="gender" class="radio" />
+          <label for="gender"><i class="fa-solid fa-mars"></i></label>
+        </div>
+        <div>
+          <label for="chekcAggre" style="font-size: 25px; padding: 10px"
+            >ვეთანხმები წესებს !<input
+              type="checkbox"
+              name="aggre"
+              id="chekcAggre"
+              class="checkbox"
+            />
+            <span class="checkmark"></span>
+          </label>
+          <p class="error-text" id="error-aggre"></p>
+        </div>
+        <button type="submit" class="submit">Submit</button>
+      </form>
+    </section>
+
+    <script src="
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
+"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

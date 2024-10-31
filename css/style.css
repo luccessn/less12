@@ -1,0 +1,176 @@
+body{
+background-color: blue;
+}
+.avatar{
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+}
+.avatar:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.fa-circle-user {
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+    font-size: 50px;
+}
+.fa-circle-user:hover{
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.formRg{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+   
+}
+.formLg{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+.sectionReg{
+    background-color:rgb(87, 99, 110);
+    width: 350px;
+    max-height: 550px;
+    border-radius: 15px;
+    transform: translateX(140%) translateY(20%);
+    display: none;
+}
+.sectionReg.activee{
+    display: block;
+}
+section:hover{
+    background-color:rgb(63, 66, 70);
+    transition: all 1s;
+}
+.loginsection{
+    background-color:rgb(87, 99, 110);
+    max-width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    transform: translateX(140%) translateY(20%);
+    display: none;
+}
+.loginsection.active{
+    display: block;
+}
+.inputtext{
+    outline: none;
+    padding: 10px;
+    padding-left: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: wheat;
+}
+.radio{
+    outline: none;
+    width: 30px;
+    height: 30px;
+    
+}
+.passwordLogin{
+    transform: translateX(-30px);
+}
+
+input:hover{
+    border:2px solid black;
+    opacity: 0.5;
+  
+}
+input[type=username] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=username]:focus {
+    width: 80%;
+  }
+  
+  input[type=email] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=email]:focus {
+    width: 80%;  }
+  
+  input[type=password] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=password]:focus {
+    width: 80%;  }
+  
+.fa-venus,.fa-mars{
+    font-size: 50px;
+}
+.fa-venus{
+    color: blueviolet;
+}
+.fa-mars{
+    color:aqua
+}
+.checkbox {
+    font: inherit;
+    width: 1.15em;
+    height: 1.15em;
+    transform: translateY(0.20em) translateX(0.20em);
+}
+.fa-lock , .fa-lock-open{
+    font-size: 25px;
+    transform: translateX(10px);
+}
+.fa-eye, .fa-eye-slash{
+    font-size: 25px;
+    /* padding-left: 10px; */
+    transform: translateX(10px);
+}
+.passwordContainer{
+    transform: translateX(15px);
+}
+.submit{
+    background-color:wheat;
+    height: 3rem;
+    width: 8rem;
+    font-size: 20px;
+    transform: translateX(60%);
+    border-radius: 5px;
+}
+.submit:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    background-color: gray;
+}
+/* //cokkies */
+.cookies{
+    background-color: aqua;
+    display: flex;
+    gap: 25px;
+    max-width: 400px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    animation: fade 2.5s;
+}
+@keyframes fade {
+    from{transform: translateY(-200px); opacity: 0;}
+    to {transform: translateX(0); opacity: 1;}
+  }
+.cookies:hover{
+    opacity: 60%;
+    transition: all 0.5s;
+}
+.fa-cookie{
+    font-size: 50px;
+}
+.cookies-title{
+    font-size: 40px;
+}
